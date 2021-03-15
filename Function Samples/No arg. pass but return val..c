@@ -8,9 +8,9 @@ int main()
     int num1, num2;
     
     // no argument is passed
-    num1 = addnumber_1();
+    num1 = getnumber_1();
     // no argument is passed
-    num2 = addnumber_2();
+    num2 = getnumber_2();
 
     printf("\n%d plus %d is %d", num1,num2,num1+num2);
 
