@@ -19,7 +19,7 @@ int main()
 
 
 //returns integer entered by the user
-int addnumber_1()
+int getnumber_1()
 {
     int func_num1;
 
@@ -30,7 +30,7 @@ int addnumber_1()
 
 }
 
-int addnumber_2()
+int getnumber_2()
 {
     int func_num2;
 
