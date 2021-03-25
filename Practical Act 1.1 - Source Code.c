@@ -36,6 +36,7 @@ int check_info(int emp_id_number, int emp_pin)
     id_number_3 = 0001, pin_3 = 3333;
     
     //checks the pass arg is valid
+    //using AND if both id and pin are true it will return 1;
     if (emp_id_number == id_number_1 && emp_pin == pin_1)
     {
         return 1;
@@ -50,6 +51,7 @@ int check_info(int emp_id_number, int emp_pin)
     {
         return 1;
     }
+    // if either id or pass is not true, return 2
     else
     {
         return 2;
