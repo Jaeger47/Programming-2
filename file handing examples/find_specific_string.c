@@ -1,4 +1,9 @@
 //note please create a file => C:\\program.txt
+/*references: 
+=https://www.quora.com/How-do-I-read-a-text-file-line-by-line-column-wise-in-C-programming
+=https://www.w3resource.com/c-programming-exercises/file-handling/c-file-handling-exercise-9.php
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
