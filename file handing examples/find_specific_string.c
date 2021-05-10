@@ -69,8 +69,8 @@ int find_word_index(FILE *myfile, const char *word, int *line, int *col)
 
         if (pos != NULL)
         {
-            // First index of word in str is 
-            // Memory address of pos - memory
+            // 1st index of the string in str is 
+            // mem address of pos - memory
             // address of str.
             *col = (pos - str);
             break;
@@ -78,7 +78,7 @@ int find_word_index(FILE *myfile, const char *word, int *line, int *col)
     }
 
 
-    // If word is not found then set line to -1
+    // If the string is not found then set line to -1
     if (*col == -1)
         *line = -1;
 
